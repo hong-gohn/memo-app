@@ -39,3 +39,132 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* 마크다운 스타일링 */
+.prose {
+  max-width: none;
+}
+
+.prose ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose ol {
+  list-style-type: decimal;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose li {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding-left: 0.25rem;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose h1 { font-size: 1.875rem; }
+.prose h2 { font-size: 1.5rem; }
+.prose h3 { font-size: 1.25rem; }
+.prose h4 { font-size: 1.125rem; }
+.prose h5 { font-size: 1rem; }
+.prose h6 { font-size: 0.875rem; }
+
+.prose p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose blockquote {
+  border-left: 4px solid #e5e7eb;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #6b7280;
+}
+
+.prose code {
+  background-color: #f3f4f6;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.prose pre {
+  background-color: #f3f4f6;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.prose pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+.prose strong {
+  font-weight: 600;
+}
+
+.prose em {
+  font-style: italic;
+}
+
+.prose a {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.prose a:hover {
+  color: #1d4ed8;
+}
+
+/* MDEditor 전용 스타일 */
+.w-md-editor {
+  background-color: transparent !important;
+}
+
+.w-md-editor-text-container,
+.w-md-editor-preview {
+  font-size: 14px !important;
+}
+
+.w-md-editor ul,
+.w-md-editor-preview ul {
+  list-style-type: disc !important;
+  margin-left: 1.5rem !important;
+  padding-left: 0 !important;
+}
+
+.w-md-editor ol,
+.w-md-editor-preview ol {
+  list-style-type: decimal !important;
+  margin-left: 1.5rem !important;
+  padding-left: 0 !important;
+}
+
+.w-md-editor li,
+.w-md-editor-preview li {
+  margin: 0.25rem 0 !important;
+  padding-left: 0.25rem !important;
+}
+
+.w-md-editor-preview h1,
+.w-md-editor-preview h2,
+.w-md-editor-preview h3,
+.w-md-editor-preview h4,
+.w-md-editor-preview h5,
+.w-md-editor-preview h6 {
+  font-weight: 600 !important;
+  margin-top: 1rem !important;
+  margin-bottom: 0.5rem !important;
+}
