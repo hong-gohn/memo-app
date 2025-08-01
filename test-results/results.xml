@@ -1,0 +1,248 @@
+<testsuites id="" name="" tests="15" failures="15" skipped="0" errors="0" time="34.971213000000006">
+<testsuite name="e2e\memo-creation.spec.ts" timestamp="2025-08-01T06:20:30.603Z" hostname="chromium" tests="5" failures="5" skipped="0" time="0.047" errors="0">
+<testcase name="메모 생성 기능 › 새 메모 생성 - 정상 케이스" classname="e2e\memo-creation.spec.ts" time="0.013">
+<failure message="memo-creation.spec.ts:13:7 새 메모 생성 - 정상 케이스" type="FAILURE">
+<![CDATA[  [chromium] › e2e\memo-creation.spec.ts:13:7 › 메모 생성 기능 › 새 메모 생성 - 정상 케이스 ────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\chromium_headless_shell-1181\chrome-win\headless_shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="메모 생성 기능 › 필수 필드 누락 - 제목 없음" classname="e2e\memo-creation.spec.ts" time="0.009">
+<failure message="memo-creation.spec.ts:70:7 필수 필드 누락 - 제목 없음" type="FAILURE">
+<![CDATA[  [chromium] › e2e\memo-creation.spec.ts:70:7 › 메모 생성 기능 › 필수 필드 누락 - 제목 없음 ────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\chromium_headless_shell-1181\chrome-win\headless_shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="메모 생성 기능 › 필수 필드 누락 - 내용 없음" classname="e2e\memo-creation.spec.ts" time="0.008">
+<failure message="memo-creation.spec.ts:86:7 필수 필드 누락 - 내용 없음" type="FAILURE">
+<![CDATA[  [chromium] › e2e\memo-creation.spec.ts:86:7 › 메모 생성 기능 › 필수 필드 누락 - 내용 없음 ────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\chromium_headless_shell-1181\chrome-win\headless_shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="메모 생성 기능 › 취소 기능" classname="e2e\memo-creation.spec.ts" time="0.009">
+<failure message="memo-creation.spec.ts:100:7 취소 기능" type="FAILURE">
+<![CDATA[  [chromium] › e2e\memo-creation.spec.ts:100:7 › 메모 생성 기능 › 취소 기능 ──────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\chromium_headless_shell-1181\chrome-win\headless_shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="메모 생성 기능 › 다양한 카테고리로 메모 생성" classname="e2e\memo-creation.spec.ts" time="0.008">
+<failure message="memo-creation.spec.ts:127:7 다양한 카테고리로 메모 생성" type="FAILURE">
+<![CDATA[  [chromium] › e2e\memo-creation.spec.ts:127:7 › 메모 생성 기능 › 다양한 카테고리로 메모 생성 ────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\chromium_headless_shell-1181\chrome-win\headless_shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="e2e\memo-creation.spec.ts" timestamp="2025-08-01T06:20:30.603Z" hostname="firefox" tests="5" failures="5" skipped="0" time="0.045" errors="0">
+<testcase name="메모 생성 기능 › 새 메모 생성 - 정상 케이스" classname="e2e\memo-creation.spec.ts" time="0.007">
+<failure message="memo-creation.spec.ts:13:7 새 메모 생성 - 정상 케이스" type="FAILURE">
+<![CDATA[  [firefox] › e2e\memo-creation.spec.ts:13:7 › 메모 생성 기능 › 새 메모 생성 - 정상 케이스 ─────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\firefox-1489\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="메모 생성 기능 › 필수 필드 누락 - 제목 없음" classname="e2e\memo-creation.spec.ts" time="0.015">
+<failure message="memo-creation.spec.ts:70:7 필수 필드 누락 - 제목 없음" type="FAILURE">
+<![CDATA[  [firefox] › e2e\memo-creation.spec.ts:70:7 › 메모 생성 기능 › 필수 필드 누락 - 제목 없음 ─────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\firefox-1489\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="메모 생성 기능 › 필수 필드 누락 - 내용 없음" classname="e2e\memo-creation.spec.ts" time="0.008">
+<failure message="memo-creation.spec.ts:86:7 필수 필드 누락 - 내용 없음" type="FAILURE">
+<![CDATA[  [firefox] › e2e\memo-creation.spec.ts:86:7 › 메모 생성 기능 › 필수 필드 누락 - 내용 없음 ─────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\firefox-1489\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="메모 생성 기능 › 취소 기능" classname="e2e\memo-creation.spec.ts" time="0.007">
+<failure message="memo-creation.spec.ts:100:7 취소 기능" type="FAILURE">
+<![CDATA[  [firefox] › e2e\memo-creation.spec.ts:100:7 › 메모 생성 기능 › 취소 기능 ───────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\firefox-1489\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="메모 생성 기능 › 다양한 카테고리로 메모 생성" classname="e2e\memo-creation.spec.ts" time="0.008">
+<failure message="memo-creation.spec.ts:127:7 다양한 카테고리로 메모 생성" type="FAILURE">
+<![CDATA[  [firefox] › e2e\memo-creation.spec.ts:127:7 › 메모 생성 기능 › 다양한 카테고리로 메모 생성 ─────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\firefox-1489\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="e2e\memo-creation.spec.ts" timestamp="2025-08-01T06:20:30.603Z" hostname="webkit" tests="5" failures="5" skipped="0" time="0.043" errors="0">
+<testcase name="메모 생성 기능 › 새 메모 생성 - 정상 케이스" classname="e2e\memo-creation.spec.ts" time="0.011">
+<failure message="memo-creation.spec.ts:13:7 새 메모 생성 - 정상 케이스" type="FAILURE">
+<![CDATA[  [webkit] › e2e\memo-creation.spec.ts:13:7 › 메모 생성 기능 › 새 메모 생성 - 정상 케이스 ──────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\webkit-2191\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="메모 생성 기능 › 필수 필드 누락 - 제목 없음" classname="e2e\memo-creation.spec.ts" time="0.009">
+<failure message="memo-creation.spec.ts:70:7 필수 필드 누락 - 제목 없음" type="FAILURE">
+<![CDATA[  [webkit] › e2e\memo-creation.spec.ts:70:7 › 메모 생성 기능 › 필수 필드 누락 - 제목 없음 ──────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\webkit-2191\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="메모 생성 기능 › 필수 필드 누락 - 내용 없음" classname="e2e\memo-creation.spec.ts" time="0.008">
+<failure message="memo-creation.spec.ts:86:7 필수 필드 누락 - 내용 없음" type="FAILURE">
+<![CDATA[  [webkit] › e2e\memo-creation.spec.ts:86:7 › 메모 생성 기능 › 필수 필드 누락 - 내용 없음 ──────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\webkit-2191\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="메모 생성 기능 › 취소 기능" classname="e2e\memo-creation.spec.ts" time="0.007">
+<failure message="memo-creation.spec.ts:100:7 취소 기능" type="FAILURE">
+<![CDATA[  [webkit] › e2e\memo-creation.spec.ts:100:7 › 메모 생성 기능 › 취소 기능 ────────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\webkit-2191\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="메모 생성 기능 › 다양한 카테고리로 메모 생성" classname="e2e\memo-creation.spec.ts" time="0.008">
+<failure message="memo-creation.spec.ts:127:7 다양한 카테고리로 메모 생성" type="FAILURE">
+<![CDATA[  [webkit] › e2e\memo-creation.spec.ts:127:7 › 메모 생성 기능 › 다양한 카테고리로 메모 생성 ──────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\masocampus\AppData\Local\ms-playwright\webkit-2191\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>

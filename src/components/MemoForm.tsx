@@ -22,7 +22,7 @@ const MDEditor = dynamic(
 interface MemoFormProps {
   isOpen: boolean
   onClose: () => void
-  onSubmit: (data: MemoFormData) => void
+  onSubmit: (data: MemoFormData) => Promise<void>
   editingMemo?: Memo | null
 }
 
@@ -60,14 +60,20 @@ export default function MemoForm({
     setTagInput('')
   }, [editingMemo, isOpen])
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!formData.title.trim() || !formData.content.trim()) {
       alert('제목과 내용을 모두 입력해주세요.')
       return
     }
-    onSubmit(formData)
-    onClose()
+    
+    try {
+      await onSubmit(formData)
+      onClose()
+    } catch (error) {
+      console.error('Failed to submit memo:', error)
+      alert('메모 저장 중 오류가 발생했습니다.')
+    }
   }
 
   const handleAddTag = () => {
